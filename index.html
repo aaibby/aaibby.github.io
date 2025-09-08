@@ -18,7 +18,7 @@
 .grid-container {
   position: relative;
   display: grid;
-  grid-template-columns: 35% 35% 30% 30%;
+  grid-template-columns: 15% 15% 15% 15%;
   gap: 5%;
   margin-left: 30px;
   margin-right: 30px;
@@ -39,8 +39,6 @@
   <div class="game-name" >combat online</div>
 </div>
     </a>
-
-<div class="grid-container">
     
 <a href="/games/clusterrush">
 <div class="preview">
@@ -48,6 +46,22 @@
   <div class="game-name" >cluster rush</div>
 </div>
     </a>
+   
+<a href="/games/ballblast">
+<div class="preview">
+  <img src="https://play-lh.googleusercontent.com/JiG3Dip2lXSpJGQ3wdpmC4Z6SCC7zHpF7DNSVJzLtiZXmE6hIuadkxLRJSuOje6mUTY=w240-h480-rw" alt="Snow" style="width:100%;">
+  <div class="game-name" >ball blast</div>
+</div>
+    </a>
+  
+<a href="/games/slowroads">
+<div class="preview">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmMTUrXWPeZwxWQKu43FVcomipuYIlNUHm4g&s" alt="Snow" style="width:100%;">
+  <div class="game-name" >slowroads.io</div>
+</div>
+    </a>
+
+
   
 </div>
 </body>
@@ -104,21 +118,20 @@
   
 .game-name {
   position: absolute;
-  bottom: 8px;
-  right: 16px;
+  bottom: 11px;
+  right: -1px;
   color:white;
   font-family:Trebuchet MS;
   font-size: 25px;
   text-shadow: 1px 2px 4px black;
   transition: all 0.3s ease-out;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 5px;
-
   white-space: nowrap;
   display: inline;
 }
 .game-name:hover {
-    transform: scale(1.1); margin-top: 10px; margin-bottom: 10px; font-size: 30px; 
+    transform: scale(1.1); bottom: 16px; right: 10px; font-size: 30px; 
 } 
   img{
 	  border-color: #a856f5;
@@ -142,4 +155,3 @@
   <p class="fot">aaibby 1.0.0</p>
   </a>
 </footer>
-
