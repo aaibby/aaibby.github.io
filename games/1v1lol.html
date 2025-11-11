@@ -1,17 +1,25 @@
 <script src="favicon.js"></script>
-<a href="/index.html">
-<button>
+<a href="aaibby.github.io">
+	<button>
   Back
   </button>
 </a>
+
+<br>
+
+<div class="game-container">
+
+  <div class="container">
+    <iframe src="1v1lolembed" width="1000px" height="600px" 	scrolling="none" frameborder="0" class="element" id="element" src="https://evowars.io/">
+    </iframe>
+	</div>
+
  <button onclick="var el = document.getElementById('element'); el.requestFullscreen();">
     Full Screen
   </button>
-<br>
-<div class="container"> <iframe src="https://85yfs65o3fj93hsd-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/ko1ov/jd83hf02ld65la32mdl4@44ac320eee35a6f332b3c07c0a81e611267e640c/1v1.xml" width="1200px" height="800px" scrolling="none" frameborder="0" class="element" id="element" src="https://evowars.io/"></iframe>
 </div>
-<style>
 
+<style>
   html {
   background-color:  #222222;
   
@@ -38,6 +46,7 @@
   text-align: center;
   color: white;
   font-size: 3em;
+  
 }
 
 .element:-ms-fullscreen p {
@@ -61,16 +70,43 @@
 Button{
   font-size: 20px;
   padding: 5px;
-  Border-radius: 5px;
+  Border-radius: 2px;
   border-color: #a856f5;
   border-style: solid;
   border-width: 3px;
   background-color: #121212;
   color: white;
-  margin-bottom: 4px;
-  margin-right: 5px;
-  margin-left: 5px;
-  
+  margin-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  box-shadow: 5px 5px 5px black;
+  transition: 0.5s ease-in-out;
 }
+  Button:hover{ 
+   box-shadow: 7px 7px 15px black;
+    transform: scale(1.05);
+  }
+  
+ .game-container {
+   background-color: #151515;
+   background: conic-gradient(from 45deg at 50% 50%, #151515, #2b2b2b);
+   padding: 5px;
+   margin-left: 10px;
+   border-width: 5px;
+   border-radius: 15px;
+   position: absolute;
+   top: 10%;
+   left: 5%;
+   padding: 10px;
+   border-style: solid;
+   width: 1000px;
+}
+  
+  iframe{ 
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  }
+   
 </style>
 <style src="game.css"/>
